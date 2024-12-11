@@ -1,0 +1,31 @@
+h1{
+    color: rgb(1, 94, 44);
+    font-size: 40px;
+    font-family: Sofia, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+nav{
+    background-color: #82aea4;
+    color: #fff;
+    padding: 5px;
+    text-align: justify;
+    
+}
+
+li{
+    display: inline;
+    padding: 5px;
+   
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
