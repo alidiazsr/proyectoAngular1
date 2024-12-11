@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -7,7 +8,7 @@ export class MovieService {
 
   movies = [
     {title: 'Inception', year: 2010, description: 'Un ladrón roba secretos corporativos utilizando tecnología para compartir sueños.', image: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg'}, 
-    { title: 'Batman/ The Dark Knight', year: 2008, description: 'Batman se enfrenta al Joker en Ciudad Gótica.', image: 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg' },
+    { title: 'Batman/ El Caballero de la Noche', year: 2008, description: 'Batman se enfrenta al Joker en Ciudad Gótica.', image: 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg' },
     { title: 'Interstellar', year: 2014, description: 'Un equipo viaja a través de un agujero de gusano para salvar a la humanidad.', image: 'https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg' },
     { title: 'The Matrix', year: 1999, description: 'Un hacker descubre la verdadera naturaleza de la realidad.', image: 'https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg' },
     { title: 'Parasite/ Parásitos', year: 2019, description: 'Una familia pobre se infiltra en un hogar rico.', image: 'https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png' },
