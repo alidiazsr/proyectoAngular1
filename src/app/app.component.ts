@@ -12,7 +12,8 @@ import { FooterComponenteComponent } from "./footer-componente/footer-componente
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponenteComponent, FooterComponenteComponent, RouterOutlet ],
+  standalone: true,
+  imports: [RouterOutlet, HeaderComponenteComponent, FooterComponenteComponent, RouterOutlet ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
